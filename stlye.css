@@ -1,0 +1,11 @@
+.hero-image{
+    background-image: url(./ocean\ pollution.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height: 350px;    
+}
+
+.hero-text{
+    color:rgb;
+}
