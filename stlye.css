@@ -3,7 +3,13 @@
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat ;
-    height: 350px;    
+    height: 330px;    
+}
+
+img{
+   width: 500px;
+   height: 300px;
+   margin-left:300px ;
 }
 
 .hero-text{
@@ -11,6 +17,17 @@
     text-align: center;
     font-size:30px;
     line-height:1.0;
-    padding-top:10%;
+    padding-top:20px;  
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap:30px;
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-right: 300px;
+    
     
 }
+
