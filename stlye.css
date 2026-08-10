@@ -7,5 +7,10 @@
 }
 
 .hero-text{
-    color:rgb;
+    color:rgb(255 227 187);
+    text-align: center;
+    font-size:30px;
+    line-height:1.0;
+    padding-top:10%;
+    
 }
