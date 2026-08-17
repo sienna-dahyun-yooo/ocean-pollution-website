@@ -17,14 +17,18 @@ img{
     text-align: center;
     font-size:30px;
     line-height:50px;
+    padding-top: 90px;
     
 }
 
 .title{
     padding-top:10px;
     padding-bottom: 10px;
-    background-color: rgb(9, 13, 57);
+    background-color: rgb(34 38 79);
     font-size: 50px;
+    margin-left: 600px;
+    margin-right:600px;
+    border-radius: 10px;
 }
  
 .two-column {
@@ -39,12 +43,12 @@ img{
 .three_pictures{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top:40px;
+    margin-top:80px;
     padding-top:100px;
     gap:20px;
     padding-right: 80px;
     padding-left: 80px;
-    background-color: rgb(9, 13, 57);
+    background-color: rgb(34 38 79);
 }
 
 .card {
