@@ -16,16 +16,46 @@ img{
     color:rgb(255 227 187);
     text-align: center;
     font-size:30px;
-    line-height:1.0;
-    padding-top:100px;  
+    line-height:50px;
+    
+}
+
+.title{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: rgb(9, 13, 57);
+    font-size: 50px;
 }
  
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:30px;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-right: 400px;
     margin-left: 400px;
 }
+
+.three_pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top:40px;
+    padding-top:100px;
+    gap:20px;
+    padding-right: 80px;
+    padding-left: 80px;
+    background-color: rgb(9, 13, 57);
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+}
+
+.card_text{
+    text-align: center;
+    color:rgb(255 227 187)
+}
+
 
