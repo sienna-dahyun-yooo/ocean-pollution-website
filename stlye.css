@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Erica+One&display=swap');
+
 .hero-image{
     background-image: url(./ocean\ pollution.jpg) ;
     background-position: center;
@@ -12,12 +14,17 @@
    object-fit:cover;
 }
 
+.info{
+    text-align: justify;
+}
+
 .hero-text{
     color:rgb(226, 214, 255);
     text-align: center;
     font-size:30px;
     line-height:50px;
-    padding-top: 90px;
+    padding-top: 150px;
+    font-family: "Bowlby One", sans-serif;
     
 }
 
@@ -71,7 +78,7 @@ nav{
 
 a{
     text-decoration: underline ;
-    color:rgb(237, 233, 255);
+    color:rgb(226, 214, 255);
     font-size: 30px;
     padding-right: 10px;
     padding-left:20px;
@@ -95,6 +102,8 @@ a:hover{
     padding-left: 250px;
     padding-right: 250px;
     padding-top: 50px;
+    
+
 }
 
 
@@ -114,7 +123,7 @@ a:hover{
     border-radius: 300px;
 }
 
-.three_collumn_one{
+.three_collumn{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:40px;
@@ -124,15 +133,7 @@ a:hover{
     padding-top: 140px;
 }
 
-.three_collumn_two{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:40px;
-    padding-right:200px;
-    padding-left:200px;
-    padding-top: 100px;
-    padding-bottom: 140px;
-}
+
 
 .three_collumn_image{
     width: 100%;
@@ -141,3 +142,17 @@ a:hover{
     border-radius: 100px;
 }
 
+.info_sprint_three{
+    text-align: justify;
+}
+
+.last{
+    text-align: center;
+    color:rgb(226, 214, 255) ;
+}
+
+.background{
+    background-color: rgb(21, 22, 63);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
