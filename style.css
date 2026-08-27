@@ -1,23 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Erica+One&display=swap');
 
+body{
+    margin: 0px;
+}
+
+/* hero-image */
 .hero-image{
-    background-image: url(./ocean\ pollution.jpg) ;
+    background-image: url(./ocean_pollution.jpg) ;
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat ;
     height: 500px;    
 }
 
+/* index.html images */
 .image_one{
    width: 100%;
    height: 300px;
    object-fit:cover;
+   border-radius: 50px;
 }
 
+/* padding of the how image */
+.padding{
+    padding-left:200px ;
+    padding-top:100px ;
+}
+
+/* how image */
+.how_image{
+    border-radius: 50px;
+    width:90%;
+    height:450px;
+
+    object-fit: cover;
+    display: inline-block;
+    overflow: hidden;
+}
+
+/* info */
 .info{
     text-align: justify;
 }
 
+/* text for the hero image */
 .hero-text{
     color:rgb(226, 214, 255);
     text-align: center;
@@ -25,9 +51,9 @@
     line-height:50px;
     padding-top: 150px;
     font-family: "Bowlby One", sans-serif;
-    
 }
 
+/* title of each page */
 .title{
     padding-top:10px;
     padding-bottom: 10px;
@@ -38,6 +64,7 @@
     border-radius: 10px;
 }
  
+/* index.html column */
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -47,6 +74,7 @@
     margin-left: 400px;
 }
 
+/* three pictures placing index.html */
 .three_pictures{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -56,26 +84,25 @@
     padding-right: 80px;
     padding-left: 80px;
     background-color: rgb(21, 22, 63);
+    
 }
 
+/* three images in index */
 .card {
     width: 100%;
     height: 100%;
     object-fit:cover ;
 }
 
-.card_text{
-    text-align: center;
-    color:rgb(226, 214, 255);
-}
 
-
+/* naviagtion link */
 nav{
     background-color: rgb(21, 22, 63);
     padding-top: 5px;
     padding-bottom:5px;
 }
 
+/* decoration of the link */
 a{
     text-decoration: underline ;
     color:rgb(226, 214, 255);
@@ -84,18 +111,12 @@ a{
     padding-left:20px;
 }
 
+/* more decoration of the link */
 a:hover{
     color: rgb(111, 86, 221);
 }
 
-.start_image{
-    width:90%;
-    height:450px;
-    padding-left:100px ;
-    padding-right:100px ;
-    padding-top:100px ;
-    object-fit: cover;
-}
+
 
 .info_two{
     text-align: center;
@@ -114,13 +135,15 @@ a:hover{
     padding-top: 100px;
     padding-left:100px;
     padding-right:100px;
+    padding-bottom: 100px;
 }
 
 .four_image{
-    width:370px;
-    height:70%;
+    width:360px;
+    height:360px;
     object-fit:cover ;
-    border-radius: 300px;
+    border-radius: 50%;
+
 }
 
 .three_collumn{
